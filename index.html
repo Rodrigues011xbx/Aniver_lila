@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário, Aline 🎉</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/birthday.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Canvas para animação de confetes -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <!-- Seção Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="floating-elements">
+                <span class="float-element">✨</span>
+                <span class="float-element">🎉</span>
+                <span class="float-element">🌸</span>
+                <span class="float-element">💫</span>
+                <span class="float-element">🎀</span>
+            </div>
+            
+            <h1 class="hero-title" data-testid="hero-title">
+                Feliz Aniversário, Aline 🎉
+            </h1>
+            
+            <p class="hero-subtitle" data-testid="hero-subtitle">
+                Este é um presente especial feito com muito carinho
+            </p>
+            
+            <div class="scroll-indicator">
+                <span>Role para baixo</span>
+                <div class="scroll-arrow">↓</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Mensagem -->
+    <section class="message-section" id="message">
+        <div class="container">
+            <div class="message-card fade-in" data-testid="message-card">
+                <div class="card-decoration">💌</div>
+                
+                <h2 class="section-title">Uma Mensagem Especial Para Você</h2>
+                <div class="message-content">
+                    <p>Querida Aline,</p>
+                    <p>
+                        Neste dia tão especial, quero que você saiba o quanto sou grato por ter você como amiga.
+                        Seu sorriso ilumina qualquer ambiente e sua energia positiva contagia todos ao redor.
+                    </p>
+                    <p>
+                        Que este novo ano traga muitas conquistas, momentos inesquecíveis e tudo aquilo que você merece.
+                        Você é uma pessoa incrível e hoje celebramos isso.
+                    </p>
+                    <p>
+                        Que venham mais risadas, histórias boas e memórias maravilhosas!
+                    </p>
+                    <p class="message-signature">Com muito carinho</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= VIDEO SECTION ================= -->
+<section class="video-section fade-in" id="video">
+    <div class="container">
+        <h2 class="section-title">Um Vídeo Especial 🎥</h2>
+        <p class="section-subtitle">
+            Um momento gravado com carinho só pra você
+        </p>
+
+        <div class="video-card">
+            <video controls poster="img/Captura de tela de 2026-02-06 19-08-36.png">
+                <source src="video/video-aline.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos.
+            </video>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Galeria de Fotos -->
+<section class="gallery-section" id="gallery">
+    <div class="container">
+        <h2 class="section-title fade-in" data-testid="gallery-title">
+            Momentos Lindos
+        </h2>
+        <p class="section-subtitle fade-in">
+            Memórias que vamos guardar para sempre
+        </p>
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item fade-in">
+                <div class="gallery-image">
+                    <img src="img/ofc.jpeg" alt="Momento 1">
+                </div>
+            </div>
+
+            <div class="gallery-item fade-in">
+                <div class="gallery-image">
+                    <img src="img/ciclismo.jpeg" alt="Momento 2">
+                </div>
+            </div>
+
+            <div class="gallery-item fade-in">
+                <div class="gallery-image">
+                    <img src="img/dhshd.jpeg" alt="Momento 3">
+                </div>
+            </div>
+
+            <div class="gallery-item fade-in">
+                <div class="gallery-image">
+                    <img src="img//lila.png" alt="Momento 4">
+                </div>
+            </div>
+
+            <div class="gallery-item fade-in">
+                <div class="gallery-image">
+                    <img src="img/jjjjj.jpeg" alt="Momento 5">
+                </div>
+            </div>
+
+            <div class="gallery-item fade-in">
+                <div class="gallery-image">
+                    <img src="img/abc.jpeg" alt="Momento 6">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    </section>
+
+    <!-- Linha do Tempo -->
+    <section class="timeline-section" id="timeline">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                Nossos Momentos Especiais
+            </h2>
+            <p class="section-subtitle fade-in">
+                Uma linda jornada no tempo
+            </p>
+            
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-icon">🌟</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Primeiro Encontro</h3>
+                        <p class="timeline-text">
+                            O dia em que nos conhecemos e tudo começou.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-icon">💫</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Aventura Inesquecível</h3>
+                        <p class="timeline-text">
+                            Aquela experiência incrível que rendeu boas histórias.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-icon">🎊</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Momento Marcante</h3>
+                        <p class="timeline-text">
+                            Uma lembrança especial que sempre vamos guardar.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-icon">🌸</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Hoje</h3>
+                        <p class="timeline-text">
+                            Celebrando mais um ano da sua vida!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Surpresa Final -->
+    <section class="surprise-section" id="surprise">
+        <div class="container">
+            <div class="surprise-card fade-in">
+                <h2 class="surprise-title">
+                    Você é uma Pessoa Incrível, Aline
+                </h2>
+                <p class="surprise-text">
+                    Sua energia, sua amizade e seu jeito único fazem a diferença.
+                </p>
+                
+                <button class="surprise-button" id="surpriseBtn">
+                    <span class="button-text">Clique para a surpresa</span>
+                    <span class="button-sparkle">✨</span>
+                </button>
+                
+                <div class="hidden-message" id="hiddenMessage">
+                    <p class="reveal-text">
+                        Que este novo ano seja leve, divertido e cheio de conquistas! 🎉✨
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Feito com muito carinho ass: Biel</p>
+            <p class="footer-year">2026</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
